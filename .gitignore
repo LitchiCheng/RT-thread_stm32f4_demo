@@ -1,32 +1,36 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+*.pyc
+*.map
+*.dblite
+*.elf
+*.bin
+*.hex
+*.axf
+*.exe
+*.pdb
+*.idb
+*.ilk
+*.old
+build
+Debug
+documentation/html
+*~
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.bak
+*.dep
 *.lib
+*.a
+*.i
+*.d
+tools/kconfig-frontends/kconfig-mconf
+packages
+cconfig.h
+GPUCache
 
-# Executables
-*.exe
-*.out
-*.app
+#cscope files
+cscope.*
+ncscope.*
+
+#ctag files
+tags
+
